@@ -84,7 +84,7 @@ export default function Sobre() {
         <p className="text-lg lg:text-xl mt-4 text-justify">
           A Orgulho Tech Conf é a primeira conferência no Brasil dedicada a
           profissionais LGBTQ+ na área de tecnologia. A ser realizada em São
-          Paulo, no sábado, 1º de junho de 2024, durante a semana da Parada LGBT
+          Paulo, entre sexta ou sábado (30 de maio ou 1º de junho de 2024 - a confirmar), durante a semana da Parada LGBT
           de São Paulo, a conferência visa celebrar a diversidade e a inclusão
           no setor tecnológico.
         </p>
@@ -157,9 +157,9 @@ export default function Sobre() {
         </p>
         <p className="text-lg lg:text-xl mt-4 text-left">
           Se sua empresa deseja patrocinar a Orgulho Tech Conf, entre em contato
-          conosco através do{" "}
-          <a href="mailto:lgbtechconf@gmail.com" className="underline">
-            email
+          conosco através do email{" "}
+          <a href="mailto:contato@orgulhotech.com.br" className="underline">
+            contato@orgulhotech.com.br
           </a>
           .
         </p>

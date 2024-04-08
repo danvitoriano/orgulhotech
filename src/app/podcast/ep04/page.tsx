@@ -14,7 +14,7 @@ export default function Ep04() {
         ajudar a comunidade de Creators a alcançar mais sucesso na plataforma.
         <br />
         <br />
-        Para o seu TCC, escreveu um livro-reportagem intitulado 'Transbordar'
+        Para o seu TCC, escreveu um livro-reportagem intitulado &apos;Transbordar&apos;
         sobre famílias compostas por pessoas transgêneros, o que reforça sua
         enorme paixão pela escrita e por assuntos relacionados à diversidade e
         inclusão. Seus interesses se dividem entre conteúdo editorial,
@@ -48,7 +48,10 @@ export default function Ep04() {
           Ver playlist completa no YouTube 🏳️‍🌈
         </p>
       </a>
-      <Link href="/podcast" className="group max-w-fit rounded-lg bg-slate-900 border border-blue-950 p-2 transition-colors hover:border-blue-800 hover:bg-slate-800 hover:dark:border-gray-700 hover:dark:bg-slate-700">
+      <Link
+        href="/podcast"
+        className="group max-w-fit rounded-lg bg-slate-900 border border-blue-950 p-2 transition-colors hover:border-blue-800 hover:bg-slate-800 hover:dark:border-gray-700 hover:dark:bg-slate-700"
+      >
         <p className="text-base p-4 text-left text-white ">
           Voltar para a lista de episódios
         </p>

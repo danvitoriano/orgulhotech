@@ -8,8 +8,7 @@ export default function Sobre() {
       <p className="text-lg lg:text-xl mt-4 text-justify">
         A Orgulho Tech Conf é a primeira conferência no Brasil dedicada a
         profissionais LGBTQ+ na área de tecnologia. A ser realizada em São
-        Paulo, entre sexta ou sábado (30 de maio ou 1º de junho de 2024 - a
-        confirmar), durante a semana da Parada LGBT de São Paulo, a conferência
+        Paulo, no sábado dia 1º de junho de 2024, no Teatro da FECAP, e durante a semana da Parada LGBT de São Paulo, a conferência
         visa celebrar a diversidade e a inclusão no setor tecnológico.
       </p>
       <p className="text-lg lg:text-xl mt-4 text-justify text-green-400">
@@ -72,7 +71,7 @@ export default function Sobre() {
       </p>
       <p className="text-lg lg:text-xl mt-4 text-left text-green-400">Local:</p>
       <p className="text-lg lg:text-xl mt-4 text-left">
-        Em São Paulo capital, a ser divulgado em breve.
+        Teatro da FECAP, São Paulo, SP
       </p>
       <p className="text-lg lg:text-xl mt-4 text-left text-green-400">
         Patrocínio:

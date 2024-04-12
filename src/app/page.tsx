@@ -9,9 +9,7 @@ export default function Home() {
         {/* save the date */}
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Teatro Fecap SP | &nbsp;
-          <code className="font-mono font-bold">
-            Sábado, 01/06/24
-          </code>
+          <code className="font-mono font-bold">Sábado, 01/06/24</code>
         </p>
         {/* social media icons links */}
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
@@ -127,49 +125,53 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Lote 1: apenas R$50. Preencha o formulário e faça o pagamento via Pix.
+            Lote 1: apenas R$50. Preencha o formulário e faça o pagamento via
+            Pix.
           </p>
         </Link>
 
-        <a
-          title="Em breve"
-          className="pointer-events-none group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          href="/call-for-papers/"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
         >
-          <h2 className={`mb-3 text-2xl font-semibold opacity-50`}>
+          <h2 className={`mb-3 text-2xl font-semibold`}>
             Call For Papers{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-30`}>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Submeta sua palestra e faça parte da programação do evento.
           </p>
-        </a>
+        </Link>
 
-        <a
-          href="mailto:contato@orgulhotech.com.br"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Patrocine{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Seja uma patrocinadora e apoie a diversidade no mercado de
-            tecnologia.
-          </p>
-        </a>
-        
+        <Link
+              href="/patrocine"
+              className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            >
+              <h2 className={`mb-3 text-2xl font-semibold`}>
+                Patrocine{" "}
+                <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                  -&gt;
+                </span>
+              </h2>
+              <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                Seja uma patrocinadora e apoie a diversidade no mercado de
+                tecnologia.
+              </p>
+            </Link>
       </div>
       <div className="mb-16 mt-16">
         <p className="text-sm text-center text-gray-400 dark:text-gray-300">
-          © 2024 Orgulho Tech Conf. Todos os direitos reservados <br /> CNPJ 05.554.777/0001-11 <br /> <Link href="/politica-de-privacidade" className="underline">Política de Privacidade</Link> <br /> <Link href="/codigo-de-conduta" className="underline">Código de Conduta</Link>
+          © 2024 Orgulho Tech Conf. Todos os direitos reservados <br /> CNPJ
+          05.554.777/0001-11 <br />{" "}
+          <Link href="/politica-de-privacidade" className="underline">
+            Política de Privacidade
+          </Link>{" "}
+          <br />{" "}
+          <Link href="/codigo-de-conduta" className="underline">
+            Código de Conduta
+          </Link>
         </p>
       </div>
     </main>

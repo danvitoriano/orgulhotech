@@ -61,7 +61,8 @@ export default function Sobre() {
         ✅ Cientistas de dados
         <br />
         ✅ Pessoas Empreendedoras
-        <br />✅ Estudantes
+        <br />
+        ✅ Estudantes
       </p>
       <p className="text-lg lg:text-xl mt-4 text-left text-green-400">
         Inscrições:

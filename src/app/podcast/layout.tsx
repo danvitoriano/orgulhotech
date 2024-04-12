@@ -149,28 +149,24 @@ export default function RootLayout({
               </p>
             </Link>
 
-            <a
-              title="Em breve"
-              className="pointer-events-none group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/call-for-papers/"
+              className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
             >
-              <h2 className={`mb-3 text-2xl font-semibold opacity-50`}>
+              <h2 className={`mb-3 text-2xl font-semibold`}>
                 Call For Papers{" "}
                 <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                   -&gt;
                 </span>
               </h2>
-              <p className={`m-0 max-w-[30ch] text-sm opacity-30`}>
+              <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
                 Submeta sua palestra e faça parte da programação do evento.
               </p>
-            </a>
+            </Link>
 
-            <a
-              href="mailto:contato@orgulhotech.com.br"
+            <Link
+              href="/patrocine/"
               className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               <h2 className={`mb-3 text-2xl font-semibold`}>
                 Patrocine{" "}
@@ -182,7 +178,7 @@ export default function RootLayout({
                 Seja uma patrocinadora e apoie a diversidade no mercado de
                 tecnologia.
               </p>
-            </a>
+            </Link>
           </div>
           <div className="mb-16 mt-16">
             <p className="text-sm text-center text-gray-400 dark:text-gray-300">
@@ -194,6 +190,10 @@ export default function RootLayout({
               <br />{" "}
               <Link href="/codigo-de-conduta" className="underline">
                 Código de Conduta
+              </Link>
+              <br />
+              <Link href="/voluntarias" className="underline">
+                Voluntárias
               </Link>
             </p>
           </div>

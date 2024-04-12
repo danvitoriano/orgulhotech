@@ -5,7 +5,7 @@ export default function Ep04() {
     <div className="grid text-left lg:mt-12 lg:grid-cols-1 sm:w-12/12 md:w-9/12 lg:w-6/12">
       <h1 className="text-6xl font-bold">Luiz Gustavo Ribeiro</h1>
       <h2 className="text-white text-sm">Gerente de Comunidades do LinkedIn</h2>
-      <h3 className="text-gray-500 text-base">Ep. 04 | 08/04 | 21h30</h3>
+      <h3 className="text-gray-500 text-base">Ep. 04 | 08/04</h3>
       <p className="text-base mt-4 mb-4 text-left">
         Luiz Gustavo Ribeiro é jornalista com enorme apreciação por experimentar
         novos desafios. Trabalhou como editor no LinkedIn, na criação e

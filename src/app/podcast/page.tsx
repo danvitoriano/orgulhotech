@@ -9,7 +9,7 @@ export default function Podcast() {
         vivo no YouTube com profissionais da área tech e de comunicação.
       </p>
       <Link
-        className="group mt-4 rounded-lg border bg-slate-800 border-gray-700 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-600 hover:dark:bg-neutral-900"
+        className="group mt-4 rounded-lg border border-gray-700 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-600 hover:dark:bg-neutral-900"
         href="/podcast/ep04"
       >
         <p className="text-3xl mt-4 text-left text-green-400">
@@ -21,7 +21,7 @@ export default function Podcast() {
           </span>
           <br />
           <span className="text-gray-500 text-base">
-            Ep. 04 | 08/04 | 21h30
+            Ep. 04 | 08/04
           </span>
         </p>
       </Link>

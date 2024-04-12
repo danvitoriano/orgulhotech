@@ -172,6 +172,10 @@ export default function Home() {
           <Link href="/codigo-de-conduta" className="underline">
             Código de Conduta
           </Link>
+          <br />
+              <Link href="/voluntarias" className="underline">
+                Voluntárias
+              </Link>
         </p>
       </div>
     </main>

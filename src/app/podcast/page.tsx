@@ -10,6 +10,23 @@ export default function Podcast() {
       </p>
       <Link
         className="group mt-4 rounded-lg border border-gray-700 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-600 hover:dark:bg-neutral-900"
+        href="/podcast/ep05"
+      >
+        <p className="text-3xl mt-4 text-left text-green-400">
+          Renato Paixão
+          <br />
+          <span className="text-white text-sm">
+            {" "}
+            Senior Product Designer, Dibbs
+          </span>
+          <br />
+          <span className="text-gray-500 text-base">
+            Ep. 05 | 19/04 | 11h30AM
+          </span>
+        </p>
+      </Link>
+      <Link
+        className="group mt-4 rounded-lg border border-gray-700 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-600 hover:dark:bg-neutral-900"
         href="/podcast/ep04"
       >
         <p className="text-3xl mt-4 text-left text-green-400">

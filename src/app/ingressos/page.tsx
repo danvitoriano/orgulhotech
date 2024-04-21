@@ -13,7 +13,9 @@ export default function Ingressos() {
         Forma de pagamento:
       </p>
       <p className="text-lg lg:text-xl mt-4 text-justify">
-        ✅ <b>Apenas Pix</b>
+        ✅ <b>Pix</b> <br />
+        ✅ <b>Débito</b> <br />
+        ✅ <b>Crédito</b>
       </p>
       <p className="text-lg lg:text-xl mt-4 text-justify text-green-400">
         Sobre o evento:
@@ -31,14 +33,13 @@ export default function Ingressos() {
         Formulário de compra:
       </p>
       <p className="text-lg lg:text-xl mt-4 text-left">
-        Preencha o formulário com seus dados, e ao final, você deverá realizar o
-        pagamento via Pix.
+      Você será direcionada para a plataforma da Even3. Preencha com seus dados, e ao final, receba seu ingresso por email.
       </p>
       <br />
 
       <a
         className="group max-w-fit rounded-lg bg-red-700 border border-red-900 p-2 transition-colors hover:border-red-950 hover:bg-red-700 hover:dark:border-red-950 hover:dark:bg-red-800"
-        href="https://forms.gle/oJYZUCBz3xvUsHTq6"
+        href="https://www.even3.com.br/orgulho-tech-conf/"
         target="_blank"
       >
         <p className="text-base m-2 text-left text-white">Comprar Ingresso</p>

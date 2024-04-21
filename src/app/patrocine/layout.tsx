@@ -143,7 +143,7 @@ export default function RootLayout({
               </h2>
               <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
                 Lote 1: apenas R$50. Preencha o formulário e faça o pagamento
-                via Pix.
+                via even3.
               </p>
             </Link>
 

@@ -94,7 +94,7 @@ export default function Ingressos() {
 
       <a
         className="group max-w-fit rounded-lg bg-red-700 border border-red-900 p-2 transition-colors hover:border-red-950 hover:bg-red-700 hover:dark:border-red-950 hover:dark:bg-red-800"
-        href="https://forms.gle/VvuwYydDY94DDHz28"
+        href="https://www.even3.com.br/orgulho-tech-conf#submissoes"
         target="_blank"
       >
         <p className="text-base m-2 text-left text-white">

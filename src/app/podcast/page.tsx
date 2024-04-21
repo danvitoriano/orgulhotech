@@ -42,18 +42,7 @@ export default function Podcast() {
           </span>
         </p>
       </Link>
-      <Link
-        className="group mt-4 rounded-lg border border-gray-700 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-600 hover:dark:bg-neutral-900"
-        href="/podcast/ep03"
-      >
-        <p className="text-3xl mt-4 text-left text-green-400">
-          Felipe dos Anjos
-          <br />
-          <span className="text-white text-sm">SAP Expert na Accenture</span>
-          <br />
-          <span className="text-gray-500 text-base">Ep. 03 | 26/01/2024</span>
-        </p>
-      </Link>
+
       <Link
         className="group mt-4 rounded-lg border border-gray-700 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-600 hover:dark:bg-neutral-900"
         href="/podcast/ep02"

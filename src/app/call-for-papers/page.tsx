@@ -82,7 +82,7 @@ export default function Ingressos() {
         Qual o prazo para submissão de propostas?
       </p>
       <p className="text-lg lg:text-xl mt-4 text-justify">
-      As propostas de palestras podem ser submetidas até o dia 30 de abril de 2024.
+      As propostas de palestras (PRORROGRADAS) podem ser submetidas até o dia 10 de maio de 2024.
       </p>
       <p className="text-lg lg:text-xl mt-4 text-justify text-green-400">
       Como faço para submeter minha proposta?

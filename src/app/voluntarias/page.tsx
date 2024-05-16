@@ -14,11 +14,11 @@ export default function Ingressos() {
         Não oferecemos ajuda de custo, mas garantimos um ambiente seguro e:
         <ul className="list-disc list-inside">
           <li>Ingresso do evento</li>
-          <li>Crachá personalizado</li>
-          <li>Kit de boas-vindas</li>
+          <li>Mais uma convidada</li>
+          <li>Brinde</li>
           <li>Alimentação no local</li>
-          <li>Experiência incrível</li>
           <li>Acesso ao backstage</li>
+          <li>Certificado de Participação</li>
         </ul>
       </p>
       <br />
